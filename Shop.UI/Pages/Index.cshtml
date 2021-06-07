@@ -27,12 +27,12 @@
                                         if (p.StockCount == 0)
                                         {
                                             cssClass = "is-danger";
-                                            message = "Out of Stock";
+                                            message = "Brak na magazynie";
                                         }
                                         else if (p.StockCount <= 10)
                                         {
                                             cssClass = "is-warning";
-                                            message = "Low on Stock";
+                                            message = "Ostatnie sztuki";
                                         }
                                     }
                                     @if (p.StockCount <= 10)
